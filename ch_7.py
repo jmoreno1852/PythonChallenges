@@ -16,12 +16,12 @@
 #   1(0,1,2,3,4)
 #   2(0,2,4,6,8)
 
-x, y = map(int, intput().input(","))
-list = []
+x, y = map(int, input().split(","))
+lst = []
 
 for i in range(x):
     tmp = []
-    for j in range(y)
-    tmp.append(i * j)
+    for j in range(y):
+        tmp.append(i * j)
     lst.append(tmp)
-print(list)
+print(lst)
