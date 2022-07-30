@@ -4,10 +4,8 @@
 # The numbers obtained should be printed in a comma-separated sequence on a single line.
 
 def chall_one(item):
-    if item % 7 == 0 and item % 5 != 0:
-        return item
+    return if item % 7 == 0 and item % 5 != 0
 
-        
-new_list = list(filter(chall_one,range(2000,3200)))
+
+new_list = list(filter(chall_one, range(2000, 3200)))
 print(new_list)
-
