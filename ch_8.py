@@ -14,6 +14,4 @@
 # print(lst)
 
 lst = sorted(input().split(','))
-
-
 print(lst)
